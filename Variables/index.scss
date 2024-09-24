@@ -1,4 +1,5 @@
 $mainColor: #c8deff;
+$bg-image-center: no-repeat center/cover;
 
 body{
     background: linear-gradient(#a5aae9cc, #8c9af6);
@@ -28,4 +29,20 @@ body{
     position: absolute;
     right: -30px;
     bottom: 110px;
+}
+
+.img-one{
+    background: url("Images/one.jpg") $bg-image-center;
+}
+   
+.img-two{
+    background: url("Images/two.jpg") $bg-image-center;
+}
+   
+.img-three{
+    background: url("Images/three.jpg") $bg-image-center;
+}
+   
+.img-four{
+    background: url("Images/four.jpg") $bg-image-center;
 }

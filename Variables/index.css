@@ -26,4 +26,20 @@ body {
   position: absolute;
   right: -30px;
   bottom: 110px;
+}
+
+.img-one {
+  background: url("Images/one.jpg") no-repeat center/cover;
+}
+
+.img-two {
+  background: url("Images/two.jpg") no-repeat center/cover;
+}
+
+.img-three {
+  background: url("Images/three.jpg") no-repeat center/cover;
+}
+
+.img-four {
+  background: url("Images/four.jpg") no-repeat center/cover;
 }/*# sourceMappingURL=index.css.map */
