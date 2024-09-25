@@ -1,11 +1,33 @@
-header {
-  background: crimson;
-  height: 50vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header nav {
+
+.container {
+  background-image: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
-  border: solid 5px turquoise;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-header ul {
-  display: flex;
+.container ul {
+  font-family: sans-serif;
+  margin-bottom: 1.5rem;
+}
+.container ul li {
+  display: inline;
+  list-style: none;
+}
+.container ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  padding-bottom: none;
+}
+.container ul li a:hover {
+  border-bottom: solid 1px white;
 }/*# sourceMappingURL=style.css.map */
