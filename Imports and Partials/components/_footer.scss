@@ -1,0 +1,28 @@
+footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+
+    textarea{
+        padding: 20px;
+        width: 420px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        background: black;
+        padding: 10px 20px;
+        font-family: sans-serif;
+    }
+}
